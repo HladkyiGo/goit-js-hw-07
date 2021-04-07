@@ -14,5 +14,5 @@ parenUl.append(liItem)
 ingredients.forEach(ingredient => {
     const liItem = document.createElement('li')
     liItem.textContent = ingredient;
-    parenUl.append(liItem)
+    parenUl.append([...liItem])
 })
